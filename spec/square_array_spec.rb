@@ -8,9 +8,8 @@ amazing_lab.collect{ |num| num * 2 }
     square_array(numbers)
   end
 
-  it 'calls on each' do
-    numbers = [1,2,3]
-
+ 
+amazing_lab.each{ |n| puts "Current number is: #{n}" }
     square_array(numbers)
   end
 
