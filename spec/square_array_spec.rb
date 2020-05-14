@@ -3,7 +3,6 @@ amazing_lab = Array[1,2,3]
 puts amazing_lab
 
 amazing_lab.collect{ |num| num * 2 }
-    expect(numbers).to_not receive(:map)
     expect(numbers).to_not receive(:inject)
     square_array(numbers)
   end
