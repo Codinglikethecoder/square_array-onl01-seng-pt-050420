@@ -10,7 +10,7 @@ amazing_lab.collect{ |num| num * 2 }
 
   it 'calls on each' do
     numbers = [1,2,3]
-    expect(numbers).to receive(:each)
+
     square_array(numbers)
   end
 
