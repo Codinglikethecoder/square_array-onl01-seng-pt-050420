@@ -1,7 +1,7 @@
-square_array' do
+amazing_lab = Array[1,2,3]
 
-  it 'does not call on collect/map or inject' do
-    numbers = [1,2,3]
+puts amazing_lab
+
     expect(numbers).to_not receive(:collect)
     expect(numbers).to_not receive(:map)
     expect(numbers).to_not receive(:inject)
